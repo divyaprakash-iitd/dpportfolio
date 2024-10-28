@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Divyaprakash"
+title                    : "DPCFD"
 title_separator          : "-"
 name                     : &name "Divyaprakash"
-description              : &description "personal description"
+description              : &description "A website for CFD enthusiasts"
 url                      : https://divyaprakash-iitd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "divyaprakash-iitd/divyaprakash-iitd.github.io"
@@ -22,13 +22,13 @@ repository               : "divyaprakash-iitd/divyaprakash-iitd.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  name             : "Divyaprakash"
+  pronouns         : "he/him"  
+  bio              : "PhD Candidate"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Indian Institute of Technology Delhi"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "divyaprakash@am.iitd.ac.in" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
