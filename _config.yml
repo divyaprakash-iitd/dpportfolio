@@ -23,9 +23,9 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Divyaprakash"
-  pronouns         : "he/him"  
+  pronouns         : "he/him/his"  
   bio              : "PhD Candidate"
-  location         : "Earth"
+  location         : "Delhi, India"
   employer         : "Indian Institute of Technology Delhi"
   uri              : # URL
   email            : "divyaprakash@am.iitd.ac.in" 
@@ -53,7 +53,7 @@ author:
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
-  goodreads        : # Username
+  goodreads        : "Divyaprakash"
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
