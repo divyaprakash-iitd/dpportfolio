@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome to DPCFD!
+Welcome to DPCFD!
 
 This website is a dedicated platform where I share my journey and expertise in programming, research, and numerical simulations, with a focus on computational fluid dynamics (CFD). Here, you’ll find blog tutorials and accompanying videos exploring various CFD concepts and techniques.
 
