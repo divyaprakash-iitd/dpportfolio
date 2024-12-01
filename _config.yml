@@ -93,12 +93,25 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider: "custom"
   giscus:
-    repo_id              : "R_kgDONHJ7lA"
-    category_name        : "Announcements"
-    category_id          : "DIC_kwDONHJ7lM4Ckx2q"
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : '1'
-    theme                : "light"
+    repo: "divyaprakash-iitd/divyaprakash-iitd.github.io"  # Add this
+    repo_id: "R_kgDONHJ7lA"
+    category: "Announcements"  # Change from category_name
+    category_id: "DIC_kwDONHJ7lM4Ckx2q"
+    mapping: "pathname"  # Add this (currently it's discussion_term)
+    strict: true  # Add this
+    reactions_enabled: '1'
+    theme: "light"
+    language: "en"  # Add this
+    loading: "lazy"  # Add this
+# comments:
+#   provider: "custom"
+#   giscus:
+#     repo_id              : "R_kgDONHJ7lA"
+#     category_name        : "Announcements"
+#     category_id          : "DIC_kwDONHJ7lM4Ckx2q"
+#     discussion_term      : # "pathname" (default), "url", "title", "og:title"
+#     reactions_enabled    : '1'
+#     theme                : "light"
 # comments:
 #   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
 #   disqus:
