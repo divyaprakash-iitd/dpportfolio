@@ -91,15 +91,24 @@ future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDONHJ7lA"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDONHJ7lM4Ckx2q"
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : '1'
+    theme                : "light"
+# comments:
+#   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+#   disqus:
+#     shortname            :
+#   discourse:
+#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#   facebook:
+#     appid                :
+#     num_posts            : # 5 (default)
+#     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
