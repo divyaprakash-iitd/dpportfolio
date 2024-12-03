@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D. in Numerical Simulations and Multi-Physics Modeling, Indian Institute of Technology Delhi, 2025 (expected)
 * M.Tech. in Mechanical Engineering (CFD), Indian Institute of Technology Gandhinagar, 2016
-* B.E. in Mechanical Engineering, Dr. Ambedkar Institute of Technology, 2012
+* B.E. in Mechanical Engineering, Dr. Ambedkar Institute of Technology, Bangalore, 2012
 
 <!-- Work experience
 ======
