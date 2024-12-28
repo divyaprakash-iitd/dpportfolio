@@ -6,18 +6,17 @@ author_profile: true
 ---
 
 <div class="simulation-gallery">
- 
   <div class="simulation-item">
     <div class="simulation-animation">
-      <h2> Autorotation of a rotor (OpenFOAM)</h2>
-      <img src="/images/cfd_gallery/inducedRotor2D.webp" alt="Rotor Autorotation">
+      <h2>Autorotation of a rotor (OpenFOAM)</h2>
+      <img src="/images/cfd_gallery/inducedRotor2D.webp" alt="Rotor Autorotation" loading="lazy">
     </div>
   </div>
   
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>Cilia-Particle Interaction</h2>
-      <img src="/images/cfd_gallery/ibm_ellipse.webp" alt="Cilia-Particle">
+      <img src="/images/cfd_gallery/ibm_ellipse.webp" alt="Cilia-Particle" loading="lazy">
     </div>
     <div class="simulation-description">
       <!--<p><strong>Parameters:</strong></p>
@@ -33,14 +32,25 @@ author_profile: true
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>IBM Implementation in OpenFOAM (Lid Driven Cavity)</h2>
-      <img src="/images/cfd_gallery/3d_particle.webp" alt="IBM LDC">
+      <img src="/images/cfd_gallery/3d_particle.webp" alt="IBM LDC" loading="lazy">
     </div>
   </div>
   
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>IBM Implementation in OpenFOAM (Channel Flow)</h2>
-      <img src="/images/cfd_gallery/channel_particle.webp" alt="Channel FLow">
+      <img src="/images/cfd_gallery/channel_particle.webp" alt="Channel FLow" loading="lazy">
     </div>
+  </div>
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% endif %}
+    <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% endif %}
   </div>
 </div>
