@@ -42,5 +42,12 @@ author_profile: true
       <img src="/images/cfd_gallery/channel_particle.webp" alt="Channel FLow" loading="lazy">
     </div>
   </div>
+  
+  <div class="simulation-item">
+    <div class="simulation-animation">
+      <h2>Falling Eliiptical Cylinder (Lattice Boltzmann Method) </h2>
+      <img src="/images/cfd_gallery/lbm.gif" alt="Channel FLow" loading="lazy">
+    </div>
+  </div>
 
 </div>
