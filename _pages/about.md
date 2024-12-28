@@ -12,4 +12,4 @@ This website is a dedicated platform where I share my journey and expertise in p
 Whether you're a student, researcher, or enthusiast, DPCFD is designed to be an engaging resource for anyone interested in CFD and its applications. Explore my work, learn more about my interests, and dive into the world of CFD with tutorials and insights from my experiences in the field.
 
 **Note:** This website is a work in progress, so stay tuned as I continue to add more content and features!
-
+<br/><img src='/images/lbm.gif'>
