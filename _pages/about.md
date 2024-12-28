@@ -15,7 +15,7 @@ Whether you're a student, researcher, or enthusiast, DPCFD is designed to be an 
 
 ## Featured Work
 <div class="featured-animation">
-  <img src="/images/cfd_gallery/3d_particle.webp" alt="IBM LDC" loading="lazy">
   <p class="caption">Implementation of Immersed Boundary Method in OpenFOAM</p>
+  <img src="/images/cfd_gallery/3d_particle.webp" alt="IBM LDC" loading="lazy">
 </div>
 

@@ -46,7 +46,7 @@ author_profile: true
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>Falling Eliiptical Cylinder (Lattice Boltzmann Method) </h2>
-      <img src="/images/cfd_gallery/lbm.gif" alt="Channel FLow" loading="lazy">
+      <img src="/images/cfd_gallery/lbm.gif" alt="LBM" loading="lazy">
     </div>
   </div>
 
