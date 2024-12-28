@@ -317,10 +317,6 @@ permalink: /:categories/:title/
 # paginate_path: /page:num/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Pagination settings
-paginate: 3  # Number of animations per page
-paginate_path: "/gallery/page:num/"
-
 # Plugins
 plugins:
   - jekyll-feed
