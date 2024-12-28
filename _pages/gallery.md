@@ -6,6 +6,14 @@ author_profile: true
 ---
 
 <div class="simulation-gallery">
+ 
+  <div class="simulation-item">
+    <div class="simulation-animation">
+      <h2> Autorotation of a rotor (OpenFOAM)</h2>
+      <img src="/images/cfd_gallery/inducedRotor2D.webp" alt="Rotor Autorotation">
+    </div>
+  </div>
+  
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>Cilia-Particle Interaction</h2>
@@ -23,6 +31,16 @@ author_profile: true
   </div>
 
   <div class="simulation-item">
-    <!-- Next simulation -->
+    <div class="simulation-animation">
+      <h2>IBM Implementation in OpenFOAM (Lid Driven Cavity)</h2>
+      <img src="/images/cfd_gallery/3d_particle.webp" alt="IBM LDC">
+    </div>
+  </div>
+  
+  <div class="simulation-item">
+    <div class="simulation-animation">
+      <h2>IBM Implementation in OpenFOAM (Channel Flow)</h2>
+      <img src="/images/cfd_gallery/channel_particle.webp" alt="Channel FLow">
+    </div>
   </div>
 </div>
