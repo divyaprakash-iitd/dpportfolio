@@ -49,5 +49,12 @@ author_profile: true
       <img src="/images/cfd_gallery/lbm.gif" alt="LBM" loading="lazy">
     </div>
   </div>
+  
+  <div class="simulation-item">
+    <div class="simulation-animation">
+      <h2>River Bed Scour Below Pipeline (Coupled Simulation in OpenFOAM) </h2>
+      <img src="/images/cfd_gallery/scourAnimation.gif" alt="scour" loading="lazy">
+    </div>
+  </div>
 
 </div>
