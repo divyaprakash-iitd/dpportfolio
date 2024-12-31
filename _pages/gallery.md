@@ -61,7 +61,7 @@ author_profile: true
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2> Simulation of Coffee Stirred by a Spoon (StarCCM) </h2>
-      <img src="/images/cfd_gallery/coffee.gif" alt="coffee" loading="lazy">
+      <img src="/images/cfd_gallery/coffee.webp" alt="coffee" loading="lazy">
     </div>
   </div>
 
