@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 <div class="simulation-gallery">
+  
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>Autorotation of a rotor [OpenFOAM] [2024]</h2>
@@ -40,9 +41,10 @@ author_profile: true
         <li>Grid Resolution: 256 x 256</li>
         <li>Time Step: 0.001s</li>
       </ul>
-      <p>Cilia-Particle interaction</p>-->
-    </div>
+      <p>Cilia-Particle interaction</p>
+    </div>-->
   </div>
+
   <div class="simulation-item">
     <div class="simulation-animation">
       <h2>Falling Eliiptical Cylinder (Lattice Boltzmann Method) [MATLAB] [2020] </h2>
@@ -66,8 +68,9 @@ author_profile: true
 
   <div class="simulation-item">
     <div class="simulation-animation">
-      <h2> Simulation of Coffee Stirred by a Spoon [StarCCM+] [2015] </h2>
+      <h2> Simulation of Coffee Stirred by a Spoon [StarCCM+] [2014] </h2>
       <img src="/images/cfd_gallery/coffee.webp" alt="coffee" loading="lazy">
     </div>
   </div>
+
 </div>
