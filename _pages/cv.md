@@ -15,22 +15,25 @@ Education
 * M.Tech. in Mechanical Engineering (CFD), Indian Institute of Technology Gandhinagar, 2016
 * B.E. in Mechanical Engineering, Dr. Ambedkar Institute of Technology, Bangalore, 2012
 
-<!-- Work experience
+Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* September 2018 – September 2020: Assistant Professor
+  * Jorhat Engineering College, Jorhat, Assam, India
+<!--  * Duties included: Teaching undergraduate and graduate-level courses in mechanical engineering-->
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* January 2018 – August 2018: Assistant Professor
+  * Institute of Technology, Gopeshwar, Uttarakhand, India
+ <!-- * Duties included: Deliveringlectures and guided students in mechanical engineering projects-->
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git -->
+* September 2016 – August 2017: Junior Research Fellow
+  * Indian Institute of Technology, Gandhinagar, Gujarat, India
+ <!-- * Duties included: Conducting research in computational modeling and simulation-->
+
+* May 2015 – July 2015: Summer Research Intern
+  * Institute of High Performance Computing, Singapore
+
+* August 2013 – November 2013: Graduate Apprentice
+  * Institute For Plasma Research, Gandhinagar, Gujarat, India
   
 <!-- Skills
 ======
