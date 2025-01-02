@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to $\nabla$PCFD!"
+title: "Welcome to DPCFD!"
 author_profile: true
 redirect_from: 
   - /about/
