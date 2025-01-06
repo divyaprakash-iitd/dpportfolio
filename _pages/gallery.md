@@ -54,7 +54,7 @@ author_profile: true
   
   <div class="simulation-item">
     <div class="simulation-animation">
-      <h2> n-Heptane Pyrolysis in a Pan [FDS] [2017]</h2>
+      <h2> n-Heptane Pyrolysis in a Pan Inside a Semi-Open Container [FDS] [2017]</h2>
       <img src="/images/cfd_gallery/pyrolysis_soot_flame.webp" alt="fds1" loading="lazy">
     </div>
   </div>
