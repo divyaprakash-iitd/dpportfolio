@@ -24,7 +24,7 @@ author_profile: true
   
   <div class="simulation-item">
     <div class="simulation-animation">
-      <h2>IBM Implementation in OpenFOAM (Channel Flow)[OpenFOAM-Custom Solver] [2024]</h2>
+      <h2>IBM Implementation in OpenFOAM (Channel Flow) [OpenFOAM-Custom Solver] [2024]</h2>
       <img src="/images/cfd_gallery/channel_particle.webp" alt="Channel FLow" loading="lazy">
     </div>
   </div>
@@ -51,11 +51,11 @@ author_profile: true
       <img src="/images/cfd_gallery/lbm.gif" alt="LBM" loading="lazy">
     </div>
   </div>
-  
+
   <div class="simulation-item">
     <div class="simulation-animation">
-      <h2> Deflection of Cook's Membrane using Material Point Method [Uintah] [2017]</h2>
-      <img src="/images/cfd_gallery/cook_deflection_animation.webp" alt="cook" loading="lazy">
+      <h2> Modelling Thermal Decomposition and Deformation of a Solid Reactant [Uintah] [2017]</h2>
+      <img src="/images/cfd_gallery/regression.webp" alt="regression" loading="lazy">
     </div>
   </div>
 
@@ -63,6 +63,13 @@ author_profile: true
     <div class="simulation-animation">
       <h2> n-Heptane Pyrolysis in a Pan Inside a Semi-Open Container [FDS] [2017]</h2>
       <img src="/images/cfd_gallery/pyrolysis_soot_flame.webp" alt="fds1" loading="lazy">
+    </div>
+  </div>
+
+  <div class="simulation-item">
+    <div class="simulation-animation">
+      <h2> Deflection of Cook's Membrane using Material Point Method [Uintah] [2016]</h2>
+      <img src="/images/cfd_gallery/cook_deflection_animation.webp" alt="cook" loading="lazy">
     </div>
   </div>
 
