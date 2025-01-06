@@ -54,6 +54,13 @@ author_profile: true
   
   <div class="simulation-item">
     <div class="simulation-animation">
+      <h2> n-Heptane Pyrolysis in a Pan [FDS] [2017]</h2>
+      <img src="/images/cfd_gallery/pyrolysis_soot_flame.webp" alt="fds1" loading="lazy">
+    </div>
+  </div>
+
+  <div class="simulation-item">
+    <div class="simulation-animation">
       <h2>River Bed Scour Below Pipeline [OpenFOAM-Custom Solver] [2016]</h2>
       <img src="/images/cfd_gallery/scourAnimation.gif" alt="scour" loading="lazy">
     </div>
