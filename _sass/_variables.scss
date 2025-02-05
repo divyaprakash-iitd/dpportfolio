@@ -55,6 +55,38 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
+/* ==========================================================================
+   Dark skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #252a34 !default;
+$text-color: #eaeaea !default;
+$primary-color: #00adb5 !default;
+$border-color: mix(#fff, $background-color, 20%) !default;
+$code-background-color: mix(#000, $background-color, 15%) !default;
+$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: mix(#000, $background-color, 30%) !default;
+$link-color: mix($primary-color, $text-color, 40%) !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
+
+/*
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -73,6 +105,7 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
+*/
 
 /* brands */
 $behance-color              : #1769FF;
@@ -102,12 +135,13 @@ $xing-color                 : #006567;
 
 
 /* links */
+/*
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
-
+*/
 
 /*
    Breakpoints
