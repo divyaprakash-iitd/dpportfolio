@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "DPCFD"
+title                    : "&nabla;PCFD"
 title_separator          : "-"
 name                     : &name "Divyaprakash"
 description              : &description "A website for CFD enthusiasts"
