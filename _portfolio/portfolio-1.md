@@ -1,5 +1,5 @@
 ---
-title: "libaxb: High-Performance Linear System Solver"
+title: "libaxb: High-Performance Linear System Solver Wrapper"
 excerpt: "A C++/Fortran library for solving sparse linear systems using BiCGSTAB with ILU preconditioning, featuring OpenMP parallelization and a robust CRS format matrix input system.<br/><img src='/images/libaxb-diagram.png'>"
 collection: portfolio
 ---
