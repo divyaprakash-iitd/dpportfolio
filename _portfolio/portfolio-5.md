@@ -1,34 +1,65 @@
 ---
-title: "Immersed Boundary Method for Cilia & Particles using Lattice Spring Method"
-excerpt: "A high-performance computational fluid dynamics framework for simulating fluid-structure interactions with cilia and deformable particles.<br/><img src='/images/cfd_gallery/ibm_ellipse.webp'>"
+title: "Geometry Generator Scripts: Learning Shell Scripting"
+excerpt: "A collection of Bash scripts developed during my Masters for learning shell scripting, focusing on automated geometry generation for OpenFOAM cases using GMSH.<br/><img src='/images/geometry-generator.png'>"
 collection: portfolio
 ---
 
+# Geometry Generator Scripts
+
 ## Project Overview
-The **Immersed Boundary Method for Cilia & Particles (IBMC)** is a Fortran-based computational fluid dynamics framework that simulates the interaction between fluids and immersed structures. This solver implements the Immersed Boundary Method (IBM) to model flexible ciliary structures and elliptical particles within a fluid domain, enabling the study of complex fluid-structure interactions in biological and engineering applications.
+During my Masters studies, I developed these Bash scripts as a learning exercise to understand shell scripting while working with OpenFOAM cases. The project focuses on automating the generation of simple 3D geometries (boxes and cylinders) using GMSH, which could later be used in OpenFOAM simulations.
 
 ## Key Features
-- **Fluid-Structure Coupling**: Two-way coupling between incompressible fluid flow and elastic structures using the immersed boundary method.
-- **Dynamic Resting Length**: Incorporates time-varying spring properties allowing for active cilia motion and beating patterns.
-- **Multi-structure Support**: Simultaneously models both ciliary arrays and deformable elliptical particles in the same fluid domain.
-- **High-Performance Computing**: Implements GPU-accelerated pressure solving using NVIDIA AmgX library.
-- **Optimized Interactions**: Utilizes cell-based neighbor lists for efficient force calculations between particles.
-- **Profiling Integration**: Includes NVTX instrumentation for performance analysis with NVIDIA profiling tools.
+- **Interactive Geometry Creation**: Command-line interface for defining geometric parameters
+- **Multiple Geometry Types**: Support for boxes and cylinders in 3D space
+- **Batch Processing**: Ability to generate multiple geometries in sequence
+- **GMSH Integration**: Automatic generation of GMSH (.geo) files
+- **Learning Outcomes**: 
+  - Basic shell scripting concepts
+  - Command-line input handling
+  - File manipulation in Bash
+  - GMSH geometry file format
+  - Process automation
 
 ## Technical Details
-- **Language**: Fortran
-- **Core Modules**:
-  - `mod_mesh`: Defines computational mesh and staggered grid arrangement
-  - `mod_time`: Implements RK2 time integration for Navier-Stokes equations
-  - `mod_pressure`: Solves the pressure Poisson equation
-  - `mod_amgx`: Provides GPU acceleration for the pressure solver
-  - `mod_ibm`: Implements the immersed boundary method force coupling
-  - `mod_cilia` & `mod_closed_cilia`: Models ciliary structures and particles
-  - `mod_inter_particle_force`: Handles particle-particle interactions
-- **Dependencies**: Requires gfortran/NVIDIA HPC SDK, optionally CUDA and AmgX for acceleration
+- **Implementation**: Bash shell scripts
+- **Dependencies**: GMSH
+- **Input**: Interactive command-line prompts
+- **Output**: GMSH geometry files (.geo)
 
 ## Implementation Highlights
-The solver discretizes the 2D incompressible Navier-Stokes equations on a staggered grid using a projection method. Immersed boundaries are represented as Lagrangian markers connected by springs, which interact with the fluid through discrete delta functions. The custom implementation features support for open ciliary structures and closed elliptical particles, with specialized force calculations for each. Particle interactions are optimized using cell-based neighbor lists, and the pressure solution is accelerated through optional GPU integration.
+The project consists of three main scripts that work together to create geometric configurations. Here's a sample interaction:
+
+```bash
+$ ./run_all.sh
+Enter Number of boxes: 
+1
+Enter Number of cylinders: 
+1
+Box Details
+Enter P1 (x1 y1 z1): 0 0 0
+Enter P2 (x2 y2 z2): 1 1 1
+Cylinder Details: 
+Enter P1 (x1 y1 z1): 0.5 0.5 0
+Enter P2 (x2 y2 z2): 0.5 0.5 1
+Enter Radius: 0.4
+```
+
+This creates a unit cube with a vertical cylinder passing through it - a common test case for OpenFOAM simulations. The scripts handle:
+
+- Coordinate calculations for all geometry vertices
+- GMSH format compatibility
+- Automated file generation and visualization
+- Interactive user input processing
+
+## Repository Structure
+```
+.
+├── run_all.sh
+├── dp_script_box.sh
+├── dp_script_cylinder.sh
+└── README.md
+```
 
 ## Technical Documentation
-[GitHub Repository](https://github.com/divyaprakash-iitd/ibmc/tree/dynamicrestinglength)
+[GitHub Repository](https://github.com/divyaprakash-iitd/visgeom)

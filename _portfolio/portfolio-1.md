@@ -1,57 +1,34 @@
 ---
-title: "libaxb: High-Performance Linear System Solver Wrapper"
-excerpt: "A C++/Fortran library for solving sparse linear systems using BiCGSTAB with ILU preconditioning, featuring OpenMP parallelization and a robust CRS format matrix input system.<br/><img src='/images/libaxb-diagram.png'>"
+title: "Immersed Boundary Method for Cilia & Particles using Lattice Spring Method"
+excerpt: "A high-performance computational fluid dynamics framework for simulating fluid-structure interactions with cilia and deformable particles.<br/><img src='/images/cfd_gallery/ibm_ellipse.webp'>"
 collection: portfolio
 ---
 
-# libaxb: Sparse Linear System Solver
-
 ## Project Overview
-`libaxb` is a high-performance numerical library designed to solve sparse linear systems of equations (Ax=b). Built with C++ and offering both C++ and Fortran interfaces, it combines the efficiency of the Eigen template library with OpenMP parallelization to provide a robust solution for large-scale scientific computing problems.
+The **Immersed Boundary Method for Cilia & Particles (IBMC)** is a Fortran-based computational fluid dynamics framework that simulates the interaction between fluids and immersed structures. This solver implements the Immersed Boundary Method (IBM) to model flexible ciliary structures and elliptical particles within a fluid domain, enabling the study of complex fluid-structure interactions in biological and engineering applications.
 
 ## Key Features
-- **Efficient Matrix Storage**: Uses Compressed Row Storage (CRS) format for optimal memory usage
-- **Advanced Solver**: Implements BiCGSTAB (Bi-Conjugate Gradient Stabilized) method with ILU (Incomplete LU) preconditioning
-- **Cross-Language Support**: Seamlessly integrates with both C++ and Fortran applications
-- **Performance Optimized**: Leverages OpenMP parallelization and high-level optimization flags
-- **Memory Efficient**: Global matrix storage enables multiple solves with different right-hand sides
+- **Fluid-Structure Coupling**: Two-way coupling between incompressible fluid flow and elastic structures using the immersed boundary method.
+- **Dynamic Resting Length**: Incorporates time-varying spring properties allowing for active cilia motion and beating patterns.
+- **Multi-structure Support**: Simultaneously models both ciliary arrays and deformable elliptical particles in the same fluid domain.
+- **High-Performance Computing**: Implements GPU-accelerated pressure solving using NVIDIA AmgX library.
+- **Optimized Interactions**: Utilizes cell-based neighbor lists for efficient force calculations between particles.
+- **Profiling Integration**: Includes NVTX instrumentation for performance analysis with NVIDIA profiling tools.
 
 ## Technical Details
-- **Implementation**: C++ with Fortran interface via ISO_C_BINDING
-- **Dependencies**: Eigen3, OpenMP
-- **Build System**: CMake
-- **Input Format**: Text-based CRS format input system
-- **Solver Parameters**:
-  - BiCGSTAB tolerance: 1e-6
-  - Maximum iterations: 1000
-  - ILU preconditioner drop tolerance: 1e-4
-
-## Target Applications
-- Finite Element Analysis
-- Computational Fluid Dynamics
-- Structural Engineering
-- Circuit Analysis
-- Any scientific computing application requiring sparse linear system solutions
+- **Language**: Fortran
+- **Core Modules**:
+  - `mod_mesh`: Defines computational mesh and staggered grid arrangement
+  - `mod_time`: Implements RK2 time integration for Navier-Stokes equations
+  - `mod_pressure`: Solves the pressure Poisson equation
+  - `mod_amgx`: Provides GPU acceleration for the pressure solver
+  - `mod_ibm`: Implements the immersed boundary method force coupling
+  - `mod_cilia` & `mod_closed_cilia`: Models ciliary structures and particles
+  - `mod_inter_particle_force`: Handles particle-particle interactions
+- **Dependencies**: Requires gfortran/NVIDIA HPC SDK, optionally CUDA and AmgX for acceleration
 
 ## Implementation Highlights
-```cpp
-// C++ Interface
-SparseSolver::initialize(values, col_indices, row_ptrs, rows, cols, nnz);
-SparseSolver::solve(rhs, rhs_size, solution);
-```
-
-```fortran
-! Fortran Interface
-call initialize_sparse_matrix(values, col_indices, row_ptrs, rows, cols, nnz)
-call solve_sparse_system(rhs, rhs_size, solution, 1.0d-6, 1000)
-```
-
-## Repository Structure
-The library is organized with a clean, modular structure:
-- Core solver implementation in C++
-- Fortran interface module
-- Example implementations in both languages
-- CMake build system for easy integration
+The solver discretizes the 2D incompressible Navier-Stokes equations on a staggered grid using a projection method. Immersed boundaries are represented as Lagrangian markers connected by springs, which interact with the fluid through discrete delta functions. The custom implementation features support for open ciliary structures and closed elliptical particles, with specialized force calculations for each. Particle interactions are optimized using cell-based neighbor lists, and the pressure solution is accelerated through optional GPU integration.
 
 ## Technical Documentation
-[GitHub Repository](https://github.com/divyaprakash-iitd/libaxb)
+[GitHub Repository](https://github.com/divyaprakash-iitd/ibmc/tree/dynamicrestinglength)
