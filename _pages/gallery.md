@@ -9,6 +9,13 @@ author_profile: true
   
   <div class="simulation-item">
     <div class="simulation-animation">
+      <h2> Particle detection and deflection using artificial cilia [Fortran|MATLAB|C|Python] [2025] </h2>
+      <img src="/images/cfd_gallery/ciliadnd.webp" alt="Cilia DND" loading="lazy">
+    </div>
+  </div>
+  
+  <div class="simulation-item">
+    <div class="simulation-animation">
       <h2>Autorotation of a rotor [OpenFOAM] [2024]</h2>
       <img src="/images/cfd_gallery/inducedRotor2D.webp" alt="Rotor Autorotation" loading="lazy">
     </div>
@@ -77,6 +84,13 @@ author_profile: true
     <div class="simulation-animation">
       <h2>River Bed Scour Below Pipeline [OpenFOAM-Custom Solver] [2016]</h2>
       <img src="/images/cfd_gallery/scourAnimation.gif" alt="scour" loading="lazy">
+    </div>
+  </div>
+
+  <div class="simulation-item">
+    <div class="simulation-animation">
+      <h2> Flow over a Pipeline with ground effect [OpenFOAM-Custom Solver] [2016]</h2>
+      <img src="/images/cfd_gallery/circleAnimation.webp" alt="vortex shedding" loading="lazy">
     </div>
   </div>
 
