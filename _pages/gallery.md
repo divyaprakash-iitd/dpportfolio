@@ -9,6 +9,13 @@ author_profile: true
   
   <div class="simulation-item">
     <div class="simulation-animation">
+      <h2> Particle transport using peristaltic waves of artificial cilia [Fortran|MATLAB|C|Python] [2025] </h2>
+      <img src="/images/cfd_gallery/pwave.webp" alt="pwave" loading="lazy">
+    </div>
+  </div>
+  
+  <div class="simulation-item">
+    <div class="simulation-animation">
       <h2> Particle detection and deflection using artificial cilia [Fortran|MATLAB|C|Python] [2025] </h2>
       <img src="/images/cfd_gallery/ciliadnd.webp" alt="Cilia DND" loading="lazy">
     </div>
