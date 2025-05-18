@@ -17,6 +17,9 @@ Education
 
 Work experience
 ======
+* May 2025 – Ongoing: Summer Intern/Programmer
+  * Google Summer of Code 2025 - Stitching SU2
+
 * September 2018 – September 2020: Assistant Professor
   * Jorhat Engineering College, Jorhat, Assam, India
 <!--  * Duties included: Teaching undergraduate and graduate-level courses in mechanical engineering-->
