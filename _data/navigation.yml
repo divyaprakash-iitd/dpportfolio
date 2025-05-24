@@ -17,14 +17,18 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
+  - title: "GSoC Blog"
+    url: /gsoc-blog/
+
   - title: "Blog Posts"
     url: /year-archive/
-    
+  
+  - title: "Gallery"
+    url: /gallery/
+
   - title: "CV"
     url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
-  
-  - title: "Gallery"
-    url: /gallery/
+
