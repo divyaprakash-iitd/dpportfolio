@@ -12,7 +12,7 @@ redirect_from:
 </div>-->
 
 <p align="center">
-  <img src="/images/DP_ECCOMAS_Pic.png" width="100%" style="transform: rotate(270deg);" alt="Cilia-Particle Interaction"/>
+  <img src="/images/DP_ECCOMAS_Pic.png" width="100%" style="transform: rotate(0deg);" alt="Cilia-Particle Interaction"/>
 </p>
 
 <p align="center">
