@@ -11,6 +11,9 @@ redirect_from:
   <img src="/images/dpcfd_logo.png" alt="DPCFD Logo" style="width: 200px;">
 </div>-->
 
+<p align="center">
+  <img src="DP_ECCOMAS_Pic.png" width="100%" style="transform: rotate(270deg);" alt="Cilia-Particle Interaction"/>
+</p>
 
 <p align="center">
   <strong>Artwork Title:</strong> <em>Cilia Particle Interaction</em>
