@@ -11,6 +11,15 @@ redirect_from:
   <img src="/images/dpcfd_logo.png" alt="DPCFD Logo" style="width: 200px;">
 </div>-->
 
+
+<p align="center">
+  <strong>Artwork Title:</strong> <em>Cilia Particle Interaction</em>
+  <a href="/images/Eccomas_competition_winner_certificate.jpeg">
+    [Winner, Arts & Science Competition, ECCOMAS Congress 2024 (Lisbon)]
+  </a>
+</p>
+
+
 This website is a dedicated platform where I share my journey and expertise in programming, research, and numerical simulations, with a focus on computational fluid dynamics (CFD). Here, you’ll find blog tutorials and accompanying videos exploring various CFD concepts and techniques.
 
 Whether you're a student, researcher, or enthusiast, &nabla;PCFD is designed to be an engaging resource for anyone interested in CFD and its applications. Explore my work, learn more about my interests, and dive into the world of CFD with tutorials and insights from my experiences in the field.
