@@ -12,9 +12,6 @@ redirect_from:
 </div>-->
 
 
-<!-- Clear the float so image doesn't overlap with profile card -->
-<div style="clear: both;"></div>
-
 <p align="center">
   <img src="/images/DP_ECCOMAS_Pic.png" width="100%" style="transform: rotate(0deg);" alt="Cilia-Particle Interaction"/>
 </p>
@@ -26,18 +23,6 @@ redirect_from:
   </a>
 </p>
 
-
-<!--<p align="center">
-  <img src="/images/DP_ECCOMAS_Pic.png" width="100%" style="transform: rotate(0deg);" alt="Cilia-Particle Interaction"/>
-</p>
-
-<p align="center">
-  <strong>Artwork Title:</strong> <em>Cilia Particle Interaction</em>
-  <a href="/images/Eccomas_competition_winner_certificate.jpeg">
-    [Winner, Arts & Science Competition, ECCOMAS Congress 2024 (Lisbon)]
-  </a>
-</p>
--->
 
 This website is a dedicated platform where I share my journey and expertise in programming, research, and numerical simulations, with a focus on computational fluid dynamics (CFD). Here, you’ll find blog tutorials and accompanying videos exploring various CFD concepts and techniques.
 
