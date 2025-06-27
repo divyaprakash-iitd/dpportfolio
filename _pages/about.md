@@ -17,7 +17,7 @@ Whether you're a student, researcher, or enthusiast, &nabla;PCFD is designed to 
 
 **Note:** This website is a work in progress, so stay tuned as I continue to add more content and features!
 
-<p align="center">
+<!--<p align="center">
   <img src="/images/DP_ECCOMAS_Pic.png" width="100%" style="transform: rotate(0deg);" alt="Cilia-Particle Interaction"/>
 </p>
 
@@ -27,7 +27,7 @@ Whether you're a student, researcher, or enthusiast, &nabla;PCFD is designed to 
     [Winner, Arts & Science Competition, ECCOMAS Congress 2024 (Lisbon)]
   </a>
 </p>
-
+-->
 ## Featured Work
 <div class="featured-animation">
   <p class="caption">Implementation of Immersed Boundary Method in OpenFOAM</p>
