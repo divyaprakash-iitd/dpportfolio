@@ -2,6 +2,7 @@
 title: "FEM Simulation of Large Deformations in 2D and 3D Structures"
 excerpt: "A MATLAB and Fortran-based Finite Element Method (FEM) library for simulating large deformations in 2D and 3D geometries. <br/><img src='/images/ellipsoidal_shell.gif'>"
 collection: portfolio
+date: 2025-07-01
 ---
 
 ## Overview

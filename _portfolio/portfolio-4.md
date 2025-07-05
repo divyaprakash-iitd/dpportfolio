@@ -2,6 +2,7 @@
 title: "A Boundary Element Method (BEM) Solver"
 excerpt: "Solves the 2D Laplace equation on a circular surface using using the Boundary Integral Method.<br/><img src='/images/bem.png'>"
 collection: portfolio
+date: 2023-08-01
 ---
 
 ## Project Overview

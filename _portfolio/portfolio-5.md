@@ -2,6 +2,7 @@
 title: "Geometry Generator Scripts: Learning Shell Scripting"
 excerpt: "A collection of Bash scripts developed during my Masters for learning shell scripting, focusing on automated geometry generation for OpenFOAM cases using GMSH.<br/><img src='/images/geometry-generator.png'>"
 collection: portfolio
+date: 2016-01-01
 ---
 
 # Geometry Generator Scripts
