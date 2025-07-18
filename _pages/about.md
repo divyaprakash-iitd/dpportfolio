@@ -30,7 +30,11 @@ Whether you're a student, researcher, or enthusiast, &nabla;PCFD is designed to 
 
 ## Featured Work
 <div class="featured-animation">
-  <p class="caption">Implementation of Immersed Boundary Method in OpenFOAM</p>
+  <p class="caption">
+    <a href="https://dpcfd.com/portfolio/portfolio-8/">
+      Implementation of Immersed Boundary Method in OpenFOAM
+    </a>
+  </p>
   <img src="/images/cfd_gallery/3d_particle.webp" alt="IBM LDC" loading="lazy">
 </div>
 
