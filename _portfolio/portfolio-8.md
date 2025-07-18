@@ -29,4 +29,4 @@ This project focuses on the development of a custom solver for OpenFOAM that ena
 The implementation involves modifying the momentum predictor step in the `icoFoam` solver to include a source term representing the force exerted by the immersed boundary. A shared library is created from the Fortran code, which is then linked with the OpenFOAM solver. The communication between the two solvers is handled by a set of Fortran subroutines that exchange position, force, and velocity data. The code is still under development, with opportunities for improvement in efficiency and accuracy.
 
 ## Technical Documentation
-[GitHub Repository](https://github.com/divyaprakash-iitd/ofcil3D)
+[GitHub Repository](https://github.com/divyaprakash-iitd/ciliaparticlefoam)
