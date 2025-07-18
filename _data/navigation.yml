@@ -17,7 +17,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "GSoC Blog"
+  - title: "GSoC"
     url: /gsoc-blog/
 
   - title: "Blog Posts"
