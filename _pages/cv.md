@@ -9,6 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="pdf-wrap">
+  <object
+    data="{{ base_path }}/files/Divyaprakash_CV.pdf#zoom=page-fit"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+  >
+    <p>Your browser can’t display PDFs inline.
+      <a href="{{ base_path }}/files/Divyaprakash_CV.pdf" target="_blank" rel="noopener">
+        Click here to download/view the CV.
+      </a>
+    </p>
+  </object>
+</div>
+
+<style>
+/* Make the viewer tall and responsive */
+.pdf-wrap {
+  height: calc(100vh - 220px); /* adjust if you want more/less page chrome */
+  min-height: 600px;
+}
+</style>
+
+
+
 Education
 ======
 * Ph.D. in Numerical Simulations and Multi-Physics Modeling, Indian Institute of Technology Delhi, 2025 (expected)
