@@ -4,3 +4,100 @@
 //  padding-top: 1em;
 //}
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181a1b;
+    color: #e8e6e3;
+  }
+
+  a {
+    color: #8ab4f8;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #e8e6e3;
+  }
+
+  .page__content {
+    color: #e8e6e3;
+  }
+
+  .archive__item-title {
+    color: #e8e6e3;
+  }
+
+  .page__meta {
+    color: #e8e6e3;
+  }
+
+  .page__title {
+    color: #e8e6e3;
+  }
+
+  .archive__item-excerpt {
+    color: #e8e6e3;
+  }
+
+  .sidebar__right {
+    background-color: #2d2d2d;
+    border-left: 1px solid #444;
+  }
+
+  .nav__sub-title {
+    color: #e8e6e3;
+  }
+
+  .list__item {
+    border-bottom: 1px solid #444;
+  }
+
+  .taxonomy__section-title {
+    color: #e8e6e3;
+    border-bottom: 1px solid #444;
+  }
+
+  .taxonomy__count {
+    color: #e8e6e3;
+  }
+
+  .taxonomy__index a {
+    color: #8ab4f8;
+    border-bottom: 1px solid #444;
+  }
+
+  .archive__subtitle {
+    color: #e8e6e3;
+  }
+
+  .page__lead {
+    color: #e8e6e3;
+  }
+
+  .page__hero-caption {
+    color: #e8e6e3;
+  }
+
+  .toc__menu li a {
+    color: #e8e6e3;
+  }
+
+  table {
+    border: 1px solid #444;
+  }
+
+  thead {
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #444;
+  }
+
+  th {
+    color: #e8e6e3;
+    border-right: 1px solid #444;
+  }
+
+  td {
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #444;
+  }
+}
+
