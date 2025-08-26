@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37.603664mm"
+   height="99.445045mm"
+   viewBox="0 0 37.603664 99.445045"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.4.2 (1:1.4.2+202505120738+ebf0e940d0)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5417989"
+     inkscape:cx="-50.590254"
+     inkscape:cy="183.22752"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+    <g
+       id="id-25b3ad4d-1e06-4fb3-b15d-cf7793ea57e9-8">
+      <symbol
+         overflow="visible"
+         id="id-078c2db4-01b8-476f-beeb-f650c226fcee-9">
+        <path
+           style="stroke:none;stroke-width:0"
+           d=""
+           id="id-8843cee4-7368-4ae2-a957-503a55932c40-7" />
+      </symbol>
+      <symbol
+         overflow="visible"
+         id="id-1371862d-ad3f-43b5-823e-48e92865eb8d-3">
+        <path
+           style="stroke:none;stroke-width:0"
+           d="M 6.421875,-6.78125 H 0.390625 V -6.3125 H 1.46875 v 5.84375 H 0.390625 V 0 c 0.375,-0.03125 1.390625,-0.03125 1.828125,-0.03125 0.484375,0 1.5625,0 2.015625,0.03125 V -0.46875 H 2.875 v -2.6875 h 0.5 c 0.96875,0 1.046875,0.421875 1.046875,1.15625 h 0.46875 V -4.796875 H 4.421875 C 4.421875,-4.0625 4.34375,-3.625 3.375,-3.625 h -0.5 v -2.6875 h 1.40625 c 1.59375,0 1.828125,0.765625 1.984375,1.9375 h 0.46875 z m 0,0"
+           id="id-5113d432-25e2-440a-a1b2-e1d085955150-6" />
+      </symbol>
+    </g>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.649947,-49.254278)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 61.64062,118.40921 V 80.095528"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)"
+       d="m 42.999975,79.170284 c 0.365226,38.781646 0.365226,38.781646 0.365226,38.781646"
+       id="path4" />
+    <rect
+       style="fill:#290ef1;fill-opacity:0.128696;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect1"
+       width="36.487186"
+       height="30.025534"
+       x="34.782238"
+       y="49.38657" />
+    <rect
+       style="fill:#f5eded;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect1-0"
+       width="36.572224"
+       height="14.151856"
+       x="35.028973"
+       y="90.640259" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="52.760254"
+       y="63.449932"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583"
+         x="52.760254"
+         y="63.449932">Fluid Flow </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="52.760254"
+         y="70.505486"
+         id="tspan2">Equations</tspan></text>
+    <rect
+       style="fill:#110d2a;fill-opacity:0.0820847;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect1-3"
+       width="36.487186"
+       height="30.025534"
+       x="35.634132"
+       y="118.5415" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="55.005493"
+       y="127.64355"
+       id="text1-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-6"
+         style="stroke-width:0.264583"
+         x="55.005493"
+         y="127.64355">Solid </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="55.005493"
+         y="134.6991"
+         id="tspan3">Deformation </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="55.005493"
+         y="141.75465"
+         id="tspan2-2">Equations</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="53.471531"
+       y="99.106544"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.264583"
+         x="53.471531"
+         y="99.106544">Interpolator</tspan></text>
+    <g
+       transform="matrix(0.81438694,0,0,0.81438694,63.870982,108.90573)"
+       ns1:version="1.10.0"
+       ns1:texconverter="pdflatex"
+       ns1:pdfconverter="inkscape"
+       ns1:text="$\\mathbf{F}$"
+       ns1:preamble="/home/divyaprakash/.config/inkscape/extensions/textext/default_packages.tex"
+       ns1:scale="3.4338880984699105"
+       ns1:alignment="middle center"
+       ns1:stroke-to-path="0"
+       ns1:jacobian_sqrt="1.2114"
+       id="g10"
+       style="stroke-width:1.4875">
+      <defs
+         id="id-e470829c-4afd-43ee-8289-36e9e6d168d4">
+        <g
+           id="id-25b3ad4d-1e06-4fb3-b15d-cf7793ea57e9">
+          <symbol
+             overflow="visible"
+             id="id-078c2db4-01b8-476f-beeb-f650c226fcee">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-8843cee4-7368-4ae2-a957-503a55932c40" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-1371862d-ad3f-43b5-823e-48e92865eb8d">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 6.421875,-6.78125 H 0.390625 V -6.3125 H 1.46875 v 5.84375 H 0.390625 V 0 c 0.375,-0.03125 1.390625,-0.03125 1.828125,-0.03125 0.484375,0 1.5625,0 2.015625,0.03125 V -0.46875 H 2.875 v -2.6875 h 0.5 c 0.96875,0 1.046875,0.421875 1.046875,1.15625 h 0.46875 V -4.796875 H 4.421875 C 4.421875,-4.0625 4.34375,-3.625 3.375,-3.625 h -0.5 v -2.6875 h 1.40625 c 1.59375,0 1.828125,0.765625 1.984375,1.9375 h 0.46875 z m 0,0"
+               id="id-5113d432-25e2-440a-a1b2-e1d085955150" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="id-ad47d5cc-6963-489a-a45a-0e4d9c3e1e92"
+         transform="translate(-149.103,-127.984)"
+         style="stroke-width:1.4875">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:1.4875"
+           id="id-5f035231-2ec9-4edf-b614-c81ce41c940c">
+          <g
+             transform="translate(148.712,134.765)"
+             id="g9"
+             style="stroke-width:1.4875">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 6.421875,-6.78125 H 0.390625 V -6.3125 H 1.46875 v 5.84375 H 0.390625 V 0 c 0.375,-0.03125 1.390625,-0.03125 1.828125,-0.03125 0.484375,0 1.5625,0 2.015625,0.03125 V -0.46875 H 2.875 v -2.6875 h 0.5 c 0.96875,0 1.046875,0.421875 1.046875,1.15625 h 0.46875 V -4.796875 H 4.421875 C 4.421875,-4.0625 4.34375,-3.625 3.375,-3.625 h -0.5 v -2.6875 h 1.40625 c 1.59375,0 1.828125,0.765625 1.984375,1.9375 h 0.46875 z m 0,0"
+               id="id-47ab1a68-613d-4c16-8df2-ff4f1cdd2570" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.814387,0,0,0.814387,35.066405,82.594724)"
+       ns1:version="1.10.0"
+       ns1:texconverter="pdflatex"
+       ns1:pdfconverter="inkscape"
+       ns1:text="$\\mathbf{u}$"
+       ns1:preamble="/home/divyaprakash/.config/inkscape/extensions/textext/default_packages.tex"
+       ns1:scale="2.3084972930620187"
+       ns1:alignment="middle center"
+       ns1:stroke-to-path="0"
+       ns1:jacobian_sqrt="0.814387"
+       style="stroke-width:0"
+       id="g10-2">
+      <defs
+         id="id-ceaed0c4-4327-43c4-b6c4-dd5e8e374364"
+         style="stroke-width:0">
+        <g
+           id="id-6162753e-849b-442c-adb8-f257bd9a4a0a"
+           style="stroke-width:0">
+          <symbol
+             overflow="visible"
+             id="id-bc66fed4-1881-41c0-ab1b-911e6bee3d19"
+             style="stroke-width:0">
+            <path
+               style="stroke:none;stroke-width:0"
+               d=""
+               id="id-e087baa3-92cf-4e65-8675-ec6b5b4a5b78" />
+          </symbol>
+          <symbol
+             overflow="visible"
+             id="id-c50b472c-c6b1-4d3d-a812-b4021431db66"
+             style="stroke-width:0">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 4.359375,-0.71875 V 0.0625 L 6.125,0 v -0.46875 c -0.609375,0 -0.6875,0 -0.6875,-0.390625 v -3.625 L 3.625,-4.40625 v 0.46875 c 0.609375,0 0.6875,0 0.6875,0.390625 v 1.90625 c 0,0.8125 -0.515625,1.34375 -1.234375,1.34375 -0.78125,0 -0.8125,-0.25 -0.8125,-0.796875 v -3.390625 l -1.8125,0.078125 v 0.46875 c 0.609375,0 0.6875,0 0.6875,0.390625 v 2.328125 c 0,1.0625 0.796875,1.28125 1.796875,1.28125 0.25,0 0.96875,0 1.421875,-0.78125 z m 0,0"
+               id="id-3616c7cb-cc93-4f84-a688-3d3541f768fa" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="id-ceee9766-143b-43bf-906b-45d62ca62602"
+         transform="translate(-149.165,-130.281)"
+         style="stroke-width:0">
+        <g
+           style="fill:#000000;fill-opacity:1;stroke-width:0"
+           id="id-2091e2a5-e6e4-4db5-a0a8-f16d4524a895">
+          <g
+             transform="translate(148.712,134.765)"
+             style="stroke-width:0"
+             id="g11">
+            <path
+               style="stroke:none;stroke-width:0"
+               d="M 4.359375,-0.71875 V 0.0625 L 6.125,0 v -0.46875 c -0.609375,0 -0.6875,0 -0.6875,-0.390625 v -3.625 L 3.625,-4.40625 v 0.46875 c 0.609375,0 0.6875,0 0.6875,0.390625 v 1.90625 c 0,0.8125 -0.515625,1.34375 -1.234375,1.34375 -0.78125,0 -0.8125,-0.25 -0.8125,-0.796875 v -3.390625 l -1.8125,0.078125 v 0.46875 c 0.609375,0 0.6875,0 0.6875,0.390625 v 2.328125 c 0,1.0625 0.796875,1.28125 1.796875,1.28125 0.25,0 0.96875,0 1.421875,-0.78125 z m 0,0"
+               id="id-bfda10a9-8ea5-45da-ab85-90ace139ae01" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

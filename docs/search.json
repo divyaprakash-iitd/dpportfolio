@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "dp_presentation.html#phd---iit-delhi",
+    "href": "dp_presentation.html#phd---iit-delhi",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "PhD - IIT Delhi",
+    "text": "PhD - IIT Delhi"
+  },
+  {
+    "objectID": "dp_presentation.html#mimicking-biological-cilia",
+    "href": "dp_presentation.html#mimicking-biological-cilia",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Mimicking Biological Cilia",
+    "text": "Mimicking Biological Cilia\n\n\n\nHair-like organelles in animals & microorganisms\nPerform both sensing and actuation functions\nInspire biomimetic engineering in microfluidics"
+  },
+  {
+    "objectID": "dp_presentation.html#numerical-modeling",
+    "href": "dp_presentation.html#numerical-modeling",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Numerical Modeling",
+    "text": "Numerical Modeling\n\n\n\nIn-house solver in Fortran, C, Python with CUDA GPU acceleration\nSupports multi-cilia & particle interactions with custom BCs\nGithub\n\n\n   \n\nImmersed Boundary Method 101"
+  },
+  {
+    "objectID": "dp_presentation.html#sensing-with-artificial-cilia",
+    "href": "dp_presentation.html#sensing-with-artificial-cilia",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Sensing with Artificial Cilia",
+    "text": "Sensing with Artificial Cilia"
+  },
+  {
+    "objectID": "dp_presentation.html#sensing-with-artificial-cilia-1",
+    "href": "dp_presentation.html#sensing-with-artificial-cilia-1",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Sensing with Artificial Cilia",
+    "text": "Sensing with Artificial Cilia"
+  },
+  {
+    "objectID": "dp_presentation.html#sensing-and-sorting",
+    "href": "dp_presentation.html#sensing-and-sorting",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Sensing and Sorting",
+    "text": "Sensing and Sorting"
+  },
+  {
+    "objectID": "dp_presentation.html#sensing-and-sorting-1",
+    "href": "dp_presentation.html#sensing-and-sorting-1",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Sensing and Sorting",
+    "text": "Sensing and Sorting\n\n\n\nRun mutilple simulations to generate data\nExtract relevant features\nTrain and Predict (Work in Progress)"
+  },
+  {
+    "objectID": "dp_presentation.html#particle-transport",
+    "href": "dp_presentation.html#particle-transport",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Particle Transport",
+    "text": "Particle Transport"
+  },
+  {
+    "objectID": "dp_presentation.html#solver-coupling-3d-simulations",
+    "href": "dp_presentation.html#solver-coupling-3d-simulations",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Solver Coupling (3D Simulations)",
+    "text": "Solver Coupling (3D Simulations)\n\n\n\nGithub"
+  },
+  {
+    "objectID": "dp_presentation.html#modeling-cloud-microphysics",
+    "href": "dp_presentation.html#modeling-cloud-microphysics",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Modeling Cloud Microphysics",
+    "text": "Modeling Cloud Microphysics\n\n\n\nCloud droplet growth is difficult to capture in LES due to assumptions.\nWe use DNS + clustering to better map droplets to superdroplets.\nTrain an ML model and predict an improved estimation of growth rates"
+  },
+  {
+    "objectID": "dp_presentation.html#modeling-cloud-microphysics-1",
+    "href": "dp_presentation.html#modeling-cloud-microphysics-1",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Modeling Cloud Microphysics",
+    "text": "Modeling Cloud Microphysics\n\n\n\nAchieved good prediction accuracy for supersaturation (R² ≈ 0.9)\nOngoing a posteriori analysis demonstrates applicability in LES"
+  },
+  {
+    "objectID": "dp_presentation.html#mtech---iit-gandhinagar",
+    "href": "dp_presentation.html#mtech---iit-gandhinagar",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "MTech - IIT Gandhinagar",
+    "text": "MTech - IIT Gandhinagar"
+  },
+  {
+    "objectID": "dp_presentation.html#scour-modeling",
+    "href": "dp_presentation.html#scour-modeling",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Scour Modeling",
+    "text": "Scour Modeling\n\nCoupled a OpenFOAM with a sediment transport model\nGithub"
+  },
+  {
+    "objectID": "dp_presentation.html#solid-propellant-fire-extinguisher-simulations",
+    "href": "dp_presentation.html#solid-propellant-fire-extinguisher-simulations",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Solid Propellant Fire Extinguisher Simulations",
+    "text": "Solid Propellant Fire Extinguisher Simulations\n\n\n\nMade use of Uintah framework to model thermal decomposition and deformation of a solid reactant\nModeled fire dynamics using FDS to complement experimental studies"
+  },
+  {
+    "objectID": "dp_presentation.html#internships",
+    "href": "dp_presentation.html#internships",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Internships",
+    "text": "Internships"
+  },
+  {
+    "objectID": "dp_presentation.html#machine-learning-for-compressible-flows",
+    "href": "dp_presentation.html#machine-learning-for-compressible-flows",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Machine Learning for Compressible Flows",
+    "text": "Machine Learning for Compressible Flows\n\n\n\nSU2: open-source solver for compressible CFD\nNICFD module extends to non-ideal fluid simulations\nUses MLPs or LUTs to model fluid properties\nMy GSoC work: improving efficiency and usability of SU2’s ML module"
+  },
+  {
+    "objectID": "dp_presentation.html#immersed-boudary-method-in-openfoam",
+    "href": "dp_presentation.html#immersed-boudary-method-in-openfoam",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Immersed Boudary Method in OpenFOAM",
+    "text": "Immersed Boudary Method in OpenFOAM\n\nInstitute of High Performance Computing in Singapore\nWorked on implementing IBM in PimpleFOAM"
+  },
+  {
+    "objectID": "dp_presentation.html#academic-projects",
+    "href": "dp_presentation.html#academic-projects",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Academic Projects",
+    "text": "Academic Projects"
+  },
+  {
+    "objectID": "dp_presentation.html#fsi-using-lattice-boltzmann-method",
+    "href": "dp_presentation.html#fsi-using-lattice-boltzmann-method",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "FSI using Lattice Boltzmann Method",
+    "text": "FSI using Lattice Boltzmann Method\n\n\n\nFinal project of the LBM Course during PhD\nMatlab Code (Github)"
+  },
+  {
+    "objectID": "dp_presentation.html#coffee-cup-simulation-using-overset-mesh",
+    "href": "dp_presentation.html#coffee-cup-simulation-using-overset-mesh",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Coffee Cup Simulation using Overset Mesh",
+    "text": "Coffee Cup Simulation using Overset Mesh\n\nFinal Project of Advanced CFD course during masters\nSimulation using Star CCM +, making use Overset Mesh"
+  },
+  {
+    "objectID": "dp_presentation.html#learn-more-about-my-work",
+    "href": "dp_presentation.html#learn-more-about-my-work",
+    "title": "Research Portfolio in CFD and Scientific Computing",
+    "section": "Learn More About My Work",
+    "text": "Learn More About My Work"
+  }
+]

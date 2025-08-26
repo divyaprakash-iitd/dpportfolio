@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Cilia Particle Interaction Presentation"
+  site-url: "https://divyaprakash-iitd.github.io/dppresentations"
+  
+format:
+  html:
+    theme: default

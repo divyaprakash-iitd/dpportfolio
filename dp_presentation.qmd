@@ -1,0 +1,223 @@
+---
+title: "Research Portfolio in CFD and Scientific Computing"
+author: "Divyaprakash"
+date: "2025-08-20"
+format: 
+  revealjs:
+    navigation-mode: linear
+    # scrollable: true
+    center: false          # optional: top-align content
+    css: custom.css
+    slide-align: center
+    theme: default
+    slide-number: true
+    chalkboard: true
+    logo: iitd_logo.png
+    footer: "Divyaprakash | PhD Student | dpcfd.com"
+    # title-slide-attributes:
+      # data-background-image: "slide_cover.svg"
+      # data-background-size: "auto"
+      # data-background-opacity: "0.3"
+      # data-background-position: "bottom"
+---
+
+## PhD - IIT Delhi {.center .vcenter}
+
+## Mimicking Biological Cilia
+::: {.columns}
+::: {.column width="50%"}
+- Hair-like organelles in animals & microorganisms
+- Perform both **sensing** and **actuation** functions
+- Inspire **biomimetic engineering** in microfluidics
+:::
+::: {.column width="50%"}
+<img src="cilia.svg" width="800" style="display: block; margin: auto;" />
+:::
+:::
+
+## Numerical Modeling
+::: {.columns}
+::: {.column width="60%"}
+- In-house solver in Fortran, C, Python with CUDA GPU acceleration
+- Supports multi-cilia & particle interactions with custom BCs
+- [Github](https://github.com/divyaprakash-iitd/ibmc/tree/dynamicrestinglength)
+:::
+::: {.column width="40%"}
+<img src="algo.svg" style="display: block; margin: auto;" />
+<br>
+<img src="particle_def_animation.gif" style="display: block; margin: auto;" />
+<br>
+<div style="text-align: center; font-size: 0.5em;"> Immersed Boundary Method 101</div>
+:::
+:::
+
+## Sensing with Artificial Cilia
+<video width="100%" controls loop>
+  <source src="simulation_10.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<video width="100%" controls loop>
+  <source src="simulation_web.mp4" type="video/mp4">
+</video>
+
+## Sensing with Artificial Cilia
+<img src="sensing.svg" width="800" style="display: block; margin: auto;" />
+
+## Sensing and Sorting
+<video width="100%" controls loop>
+  <source src="ciliadnd_cropped_1.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<video width="100%" controls loop>
+  <source src="ciliadnd_cropped_2.mp4" type="video/mp4">
+</video>
+<!-- ## Sensing and Sorting
+<video width="100%" style="display: block; margin: auto;" controls autoplay loop>
+  <source src="ciliadnd_cropped_1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br>
+<img src="signature_cdnd.png" width="800" style="display: block; margin: auto;" /> -->
+
+## Sensing and Sorting
+::: {.columns}
+::: {.column width="40%"}
+- Run mutilple simulations to generate data
+- Extract relevant features
+- Train and Predict (Work in Progress)
+:::
+::: {.column width="60%"}
+<img src="signature_cdnd.png" width="600" style="display: block; margin: auto;" />
+<!-- <br> -->
+<img src="signs.png" width="1000" style="display: block; margin: auto;" />
+:::
+:::
+
+## Particle Transport
+<video width="100%" controls loop>
+  <source src="ellipse_transport_cilia_cropped.mp4" type="video/mp4">
+</video>
+
+<br>
+
+<video width="100%" controls loop>
+  <source src="circle_transport_cilia_cropped.mp4" type="video/mp4">
+</video>
+
+## Solver Coupling (3D Simulations)
+::: {.columns}
+::: {.column width="20%"}
+- [Github](https://github.com/divyaprakash-iitd/ciliaparticlefoam)
+  
+<img src="IBM_block_5.svg" style="display: block; margin: auto;" />
+:::
+
+::: {.column width="80%"}
+<img src="3d_particle.gif" style="display: block; margin: auto;" />
+:::
+:::
+
+
+## Modeling Cloud Microphysics
+::: {.columns}
+::: {.column width="50%"}
+- Cloud droplet growth is difficult to capture in LES due to assumptions.
+- We use **DNS + clustering** to better map droplets to superdroplets.
+- Train an ML model and predict an improved estimation of growth rates
+:::
+
+::: {.column width="50%"}
+![](cloud_py.png)
+<!-- ![](plot_nm300_wo_drops.png) -->
+:::
+:::
+
+## Modeling Cloud Microphysics
+::: {.columns}
+::: {.column width="50%"}
+- Achieved good prediction accuracy for supersaturation (R² ≈ 0.9)
+- Ongoing a posteriori analysis demonstrates applicability in LES
+:::
+
+::: {.column width="50%"}
+<img src="plot_nm300_wo_drops.png" style="display: block; margin: auto;" width=400 />
+<br>
+<img src="animation.gif" style="display: block; margin: auto;" width=500 />
+:::
+:::
+
+## MTech - IIT Gandhinagar {.center .vcenter}
+
+## Scour Modeling 
+- Coupled a OpenFOAM with a sediment transport model
+- [Github](https://github.com/divyaprakash-iitd/masters)
+<img src="scourAnimation.gif" style="display: block; margin: auto;" width=900 />
+
+## Solid Propellant Fire Extinguisher Simulations {.smaller}
+::: {.columns}
+::: {.column width="75"}
+- Made use of **Uintah** framework to model thermal decomposition and deformation of a solid reactant
+- Modeled fire dynamics using FDS to complement experimental studies
+
+<img src="regression.webp" width="400" style="display: block; margin: auto;" />
+:::
+
+::: {.column width="75"}
+<img src="pyrolysis_soot_flame.webp" width="400" style="display: block; margin: auto;" />
+:::
+:::
+
+## Internships {.center .vcenter}
+
+## Machine Learning for Compressible Flows
+::: {.columns}
+::: {.column width="75"}
+- SU2: open-source solver for compressible CFD
+- NICFD module extends to non-ideal fluid simulations
+- Uses MLPs or LUTs to model fluid properties
+- My GSoC work: improving efficiency and usability of SU2’s ML module
+:::
+
+::: {.column width="25"}
+<img src="gsoc_logo.png" style="display: block; margin: auto;" />
+<br>
+<img src="su2_foundations_logo.png" style="display: block; margin: auto;" width="150" />
+:::
+:::
+
+## Immersed Boudary Method in OpenFOAM
+- Institute of High Performance Computing in Singapore
+- Worked on implementing IBM in PimpleFOAM
+
+## Academic Projects {.center .vcenter}
+
+## FSI using Lattice Boltzmann Method
+::: {.columns}
+::: {.column width="50"}
+- Final project of the LBM Course during PhD
+- Matlab Code ([Github](https://github.com/divyaprakash-iitd/ellipseLBM))
+:::
+
+::: {.column width="50"}
+<img src="lbm.gif" style="display: block; margin: auto;" width=800 />
+:::
+:::
+
+## Coffee Cup Simulation using Overset Mesh
+- Final Project of Advanced CFD course during masters
+- Simulation using Star CCM +, making use Overset Mesh
+
+
+<!-- ![](coffee.webp) -->
+<img src="coffee.webp" width="500" style="display: block; margin: auto;" />
+
+
+## Learn More About My Work
+<!-- ![](qr-code.png) -->
+<a href="https://dpcfd.com" target="_blank">
+  <img src="qr-code.png" width="500" style="display: block; margin: auto;" />
+</a>
